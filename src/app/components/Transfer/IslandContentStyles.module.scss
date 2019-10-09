@@ -1,0 +1,80 @@
+.islandContent{
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  padding-bottom: 20px;
+
+  .column>td:first-child{
+
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #707070;
+  }
+  table{
+
+  }
+  table>tr>td{
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #707070;
+  }
+  .ready{
+    margin-left: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    .salary{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .salary>span:first-child{
+      font-family: Roboto,serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      color: #97E3E5;
+      display:flex;
+      justify-content: flex-end;
+    }
+    .salary>span:last-child{
+      font-family: Roboto,serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 29px;
+
+      color: #20C4C8;
+    }
+  }
+  .select{
+    min-width:200px;
+    height:35px;
+    border-radius: 17.5px;
+    border: 1px solid #E8E8E8;
+    font-size: 15px;
+    color: #d0d0d0;
+    background-color: #fff;
+    transition: all 300ms;
+  }
+
+  .setPrice{
+    margin-left: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+
+}
